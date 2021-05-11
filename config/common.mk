@@ -116,6 +116,10 @@ else
     PRODUCT_COPY_FILES += vendor/lineage/bootanimation/bootanimation_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 endif
 
+# StitchImage
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
 ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
