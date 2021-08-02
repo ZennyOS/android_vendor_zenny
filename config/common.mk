@@ -139,8 +139,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LineageParts \
     LineageSettingsProvider \
-    LineageSetupWizard \
-    Updater
+    LineageSetupWizard
 
 # Themes
 PRODUCT_PACKAGES += \
@@ -155,7 +154,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
-    
+
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
     7z \
