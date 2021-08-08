@@ -15,9 +15,9 @@
     limitations under the License.
 -->
 <resources>
-    <color name="accent_device_default_700">#167C80</color>
-    <color name="accent_device_default_dark">#167C80</color>
-    <color name="accent_device_default_light">#167C80</color>
-    <color name="material_deep_teal_200">#167C80</color>
-    <color name="material_deep_teal_500">#167C80</color>
+    <color name="accent_device_default_700">#72deff</color>
+    <color name="accent_device_default_dark">#72deff</color>
+    <color name="accent_device_default_light">#72deff</color>
+    <color name="material_deep_teal_200">#72deff</color>
+    <color name="material_deep_teal_500">#72deff</color>
 </resources>
