@@ -1,5 +1,5 @@
-# Inherit mini common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mini.mk)
+# Inherit mini common Zenny stuff
+$(call inherit-product, vendor/zenny/config/common_mini.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \

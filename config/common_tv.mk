@@ -1,8 +1,8 @@
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common.mk)
+# Inherit common Zenny stuff
+$(call inherit-product, vendor/zenny/config/common.mk)
 
 # Inherit Lineage atv device tree
-$(call inherit-product, device/lineage/atv/lineage_atv.mk)
+$(call inherit-product, device/zenny/atv/lineage_atv.mk)
 
 # AOSP packages
 PRODUCT_PACKAGES += \
@@ -12,4 +12,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LineageCustomizer
 
-DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/tv
+DEVICE_PACKAGE_OVERLAYS += vendor/zenny/overlay/tv
